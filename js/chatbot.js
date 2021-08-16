@@ -1,4 +1,4 @@
-const url = "http://ieeefaqbot.centralus.azurecontainer.io:90/chatbot"
+const url = "https://links.ieeevit.org/faq-bot-api"
 
 document.querySelector(".chatbot-button").addEventListener("click", () => {
     if (document.querySelector(".chatbot-wrap").getAttribute("style") == "display: none;") {
